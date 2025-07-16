@@ -37,7 +37,7 @@ Run for prod:
 npm run build
 ```
 
-Deploy to github pages:
+Deploy to github pages (on gh-pages branch):
 ```
 npm run deploy
 ```
