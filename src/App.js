@@ -3,6 +3,7 @@ import { Button, Grid, Card, CardContent, Typography, TextField, Box } from '@mu
 import { FileCopy } from '@mui/icons-material';
 import zoeLogo from './assets/zoe.png';
 import classpassLogo from './assets/classpass.svg';
+import cranklogo from './assets/crank.jpeg';
 import taskrabbitLogo from './assets/taskrabbit.png';
 import umLogo from './assets/urbanmassage.png';
 import goustoLogo from './assets/gousto.png';
@@ -36,6 +37,13 @@ const discounts = [
     offer: "20 bonus credits on your £1 trial",
     logo: classpassLogo,
     link: "https://classpass.com/refer/541UUPN726"
+  },
+  {
+    company: "Crank",
+    code: null,
+    offer: "2 class credits",
+    logo: cranklogo,
+    link: "https://momence.com/sign-up/member?hostId=14528&ref=e7ba3d9e0f3fd54216183c0394e3ed1c&redirect=https://momence.com/Eno-Majomi/The-Tank/106198354"
   },
   {
     company: "Gousto",
