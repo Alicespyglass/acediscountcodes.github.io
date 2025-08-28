@@ -3,6 +3,8 @@ import { Button, Grid, Card, CardContent, Typography, TextField, Box } from '@mu
 import { FileCopy } from '@mui/icons-material';
 import zoeLogo from './assets/zoe.png';
 import classpassLogo from './assets/classpass.svg';
+import crankLogo from './assets/crank.jpeg';
+import replitLogo from './assets/replit.png';
 import taskrabbitLogo from './assets/taskrabbit.png';
 import umLogo from './assets/urbanmassage.png';
 import goustoLogo from './assets/gousto.png';
@@ -38,11 +40,25 @@ const discounts = [
     link: "https://classpass.com/refer/541UUPN726"
   },
   {
+    company: "Crank",
+    code: null,
+    offer: "2 class credits",
+    logo: crankLogo,
+    link: "https://momence.com/sign-up/member?hostId=14528&ref=e7ba3d9e0f3fd54216183c0394e3ed1c&redirect=https://momence.com/Eno-Majomi/The-Tank/106198354"
+  },
+  {
     company: "Gousto",
     code: null,
     offer: "65% off your first box, PLUS 25% off all other boxes in your first two months",
     logo: goustoLogo,
     link: "https://www.gousto.co.uk/raf?promo_code=PETER44635416&utm_source=iosapp"
+  },
+  {
+    company: "Replit",
+    code: null,
+    offer: "Get $10 in credits",
+    logo: replitLogo,
+    link: "https://replit.com/refer/alicecee1"
   },
   {
     company: "Task Rabbit",
